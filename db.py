@@ -1,7 +1,13 @@
+import os
+
 import sqlalchemy
 import databases
+from dotenv import load_dotenv
 
-DATABASE_URL = "postgresql://inbdwlwqdarcns:c02e007044c8db5c9c264351cd5727d9587a872b543b244b037873ec6c12e01c@ec2-34-247-72-29.eu-west-1.compute.amazonaws.com:5432/d3fh43dgaonv24"
+load_dotenv()
+
+
+DATABASE_URL = os.getenv('DATABASE_URL')
 database = databases.Database(DATABASE_URL)
 
 metadata = sqlalchemy.MetaData()
