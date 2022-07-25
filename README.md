@@ -1,4 +1,4 @@
-# Ready to deploy on Heroku fastapi asynchoronus API boilerplate with:
+# Ready to deploy on Heroku FastAPI asynchoronus API boilerplate with:
 
 - authentication based on JWT Token
 - data schemas
