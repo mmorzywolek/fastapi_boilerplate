@@ -5,3 +5,4 @@ passlib==1.7.4
 pydantic==1.9.1
 SQLAlchemy
 uvicorn==0.18.2
+python-dotenv==0.20.0
