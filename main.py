@@ -1,7 +1,5 @@
 from fastapi import FastAPI
-import articles
-import auth
-import users
+from routes import articles, auth, users
 from db import database, metadata, engine
 
 metadata.create_all(engine)
