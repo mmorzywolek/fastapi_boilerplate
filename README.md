@@ -6,6 +6,6 @@
 - all methods examples GET/POST/PUT/DELETE
 
 To deploy on local machine use Docker to create local Postgres databse.
-To deploy on Heroku envioremnt variables needs to specified before deployment.
+To deploy on Heroku, envioremnt variables needs to be specified before deployment.
 
 Live version avaliable here: https://fastapi-articles.herokuapp.com/docs
